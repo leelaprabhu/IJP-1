@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=mainClass\ stage\ viewerClass
+comment0.target=ijp.PhotoViewer\ create(java.lang.Class,\ javafx.stage.Stage,\ java.lang.String)
+comment0.text=\n\ Create\ a\ viewer\n\n\ @param\ mainClass\ the\ class\ name\ to\ use\ when\ looking\ for\ resources\n\ @param\ stage\ the\ JavaFx\ stage\n\ @param\ viewerClass\ the\ class\ of\ the\ viewer\ to\ load\n
+comment1.params=stage
+comment1.target=void\ start(javafx.stage.Stage)
+comment1.text=\n\ Start\ the\ viewer\ on\ the\ given\ stage\n\n\ @param\ stage\ the\ JavaFx\ stage\n
+numComments=2

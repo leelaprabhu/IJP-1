@@ -1,0 +1,8 @@
+#BlueJ class context
+comment0.params=primaryStage
+comment0.target=void\ start(javafx.stage.Stage)
+comment0.text=\n\ Start\ the\ application.\n\n\ @param\ primaryStage\ the\ JavaFx\ primary\ stage\n
+comment1.params=args
+comment1.target=void\ main(java.lang.String[])
+comment1.text=\n\ Launch\ the\ application\ \n\n\ @param\ args\ the\ command\ line\ arguments\ (not\ used)\n
+numComments=2

@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=controller
+comment0.target=void\ setController(PhotoController)
+comment0.text=\n\ Set\ the\ controller\ for\ the\ window.\ The\ <code>topicSelected(int\ subjectNumber)</code>\n\ method\ in\ the\ controller\ will\ be\ called\ when\ a\ topic\ is\ selected\ in\ the\ interface.\n\ The\ <code>exit()</code>\ method\ will\ be\ called\ when\ the\ user\ closes\ the\ window.\n\ If\ no\ controller\ is\ specified,\ then\ selecting\ topics\ will\ have\ no\ effect.\n\n\ @param\ controller\ the\ <code>PhotoController</code>\ which\ will\ receive\ commands\n\ from\ the\ interface.\n
+comment1.params=topicNumber\ caption
+comment1.target=void\ setCaption(int,\ java.lang.String)
+comment1.text=\n\ Sets\ the\ caption\ for\ selecting\ an\ image\ of\ the\ specified\ topic.\n\ If\ the\ caption\ is\ empty,\ then\ the\ selector\ (button/menu\ item,\ etc.)\n\ is\ made\ invisible.\ If\ the\ number\ is\ out\ of\ range,\ it\ is\ ignored.\n\n\ @param\ topicNumber\ the\ topic\ number\n\ @param\ caption\ the\ caption\ string\n
+comment2.params=stage
+comment2.target=void\ start(javafx.stage.Stage)
+comment2.text=\n\ Starts\ displaying\ the\ viewer\ on\ the\ specified\ stage.\n\n\ @param\ stage\ the\ JavaFx\ stage\ to\ display\ the\ viewer\n
+comment3.params=photo
+comment3.target=void\ show(Photo)
+comment3.text=\n\ Shows\ the\ specified\ photo\ in\ the\ window.\n\n\ @param\ photo\ the\ photo\ to\ show\n
+numComments=4

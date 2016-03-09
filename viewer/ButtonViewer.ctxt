@@ -1,0 +1,16 @@
+#BlueJ class context
+comment0.params=fxmlFileLocation\ resources
+comment0.target=void\ initialize(java.net.URL,\ java.util.ResourceBundle)
+comment1.params=n\ caption
+comment1.target=void\ setCaption(int,\ java.lang.String)
+comment2.params=event
+comment2.target=void\ topic1Selected(javafx.event.ActionEvent)
+comment3.params=event
+comment3.target=void\ topic2Selected(javafx.event.ActionEvent)
+comment4.params=event
+comment4.target=void\ topic3Selected(javafx.event.ActionEvent)
+comment5.params=controller
+comment5.target=void\ setController(ijp.PhotoController)
+comment6.params=photo
+comment6.target=void\ show(ijp.Photo)
+numComments=7

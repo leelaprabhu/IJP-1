@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="402.0" maxWidth="546.0" minHeight="402.0" minWidth="546.0" prefHeight="402.0" prefWidth="546.0" xmlns:fx="http://javafx.com/fxml" fx:controller="ijp.viewer.MenuViewer">
+  <children>
+    <ImageView fx:id="imageView" fitHeight="378.0" fitWidth="545.9998779296875" pickOnBounds="true" preserveRatio="true" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="24.0" />
+    <MenuBar prefWidth="545.9998779296875" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <menus>
+        <Menu mnemonicParsing="false" text="Topic" fx:id="topicMenu">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#topic1Selected" text="Topic 1" fx:id="topic1MenuItem" />
+            <MenuItem mnemonicParsing="false" onAction="#topic2Selected" text="Topic 2" fx:id="topic2MenuItem" />
+            <MenuItem mnemonicParsing="false" onAction="#topic3Selected" text="Topic 3" fx:id="topic3MenuItem" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+  </children>
+</AnchorPane>

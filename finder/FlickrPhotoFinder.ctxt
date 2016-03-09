@@ -1,0 +1,15 @@
+#BlueJ class context
+comment0.params=apiKey
+comment0.target=FlickrPhotoFinder(java.lang.String)
+comment0.text=\n\ Create\ a\ Flickr\ photofinder\ and\ set\ the\ API\ key.\n\ API\ keys\ can\ be\ obtained\ from\ <a\ href\=http\://bit.ly/8B4ql0>http\://bit.ly/8B4ql0</a>\n\n\ @param\ apiKey\ the\ Flickr\ API\ key\n
+comment1.params=
+comment1.target=FlickrPhotoFinder()
+comment1.text=\n\ Create\ a\ Flickr\ photofinder\ with\ no\ API\ key.\n\ The\ "find"\ method\ will\ look\ for\ a\ key\ in\n\ <code>~/.flickrapikey</code>\ (on\ Unix-based\ systems).\n\ If\ no\ API\ key\ is\ found,\ a\ runtime\ exception\ is\ thrown.\n\ API\ keys\ can\ be\ obtained\ from\ <a\ href\=http\://bit.ly/8B4ql0>http\://bit.ly/8B4ql0</a>\n\n
+comment2.params=msg\ searchText\ index
+comment2.target=void\ reportError(java.lang.String,\ java.lang.String,\ int)
+comment3.params=
+comment3.target=void\ checkAPIKey()
+comment4.params=topic\ n
+comment4.target=ijp.Photo\ find(java.lang.String,\ int)
+comment4.text=\n\ Returns\ a\ photo\ object\ from\ a\ free-text\ search\ of\ Flickr.\ Normally,\ there\n\ will\ be\ more\ than\ one\ match,\ and\ the\ <code>n</code>'th\ matching\ photograph\n\ is\ returned.\ <p>\ If\ there\ is\ no\ matching\ image,\ or\ <code>n</code>\ is\ greater\n\ than\ the\ number\ of\ matching\ images,\ or\ there\ is\ any\ other\ kind\ of\ error,\n\ then\ an\ error\ message\ is\ printed\ to\ the\ console\ and\ null\ is\ returned.\n\n\ @param\ topic\ the\ free-text\ topic\ string\n\ @param\ n\ the\ number\ of\ the\ matching\ photo\ to\ return\n\ @return\ the\ requested\ photo,\ or\ null\ if\ not\ available\n
+numComments=5

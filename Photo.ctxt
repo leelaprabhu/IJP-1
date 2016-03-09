@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.params=
+comment0.target=java.awt.image.BufferedImage\ getImage()
+comment0.text=\n\ Return\ the\ image\ associated\ with\ the\ photograph.\n\ \n\ @return\ the\ image\ associated\ with\ the\ photograph\n
+comment1.params=image
+comment1.target=void\ setImage(java.awt.image.BufferedImage)
+comment1.text=\n\ Set\ the\ image\ associated\ with\ the\ photograph.\n\ \n\ @param\ image\ the\ associated\ image\n
+comment2.params=
+comment2.target=java.lang.String\ getTopic()
+comment2.text=\n\ Return\ the\ description\ of\ the\ photograph.\n\ \n\ @return\ the\ description\ of\ the\ photograph\n
+comment3.params=topic
+comment3.target=void\ setTopic(java.lang.String)
+comment3.text=\n\ Set\ the\ description\ of\ the\ photograph.\n\ \n\ @param\ topic\ the\ photo\ topic\n
+numComments=4

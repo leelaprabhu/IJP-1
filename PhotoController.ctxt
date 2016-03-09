@@ -1,0 +1,11 @@
+#BlueJ class context
+comment0.params=
+comment0.target=void\ initialize()
+comment0.text=\n\ Initialize\ (eg.\ set\ captions\ for\ buttons\ etc\ ..)\n
+comment1.params=topicNumber
+comment1.target=void\ topicSelected(int)
+comment1.text=\n\ Handle\ topic\ selections\ from\ the\ viewer.\n\n\ @param\ topicNumber\ the\ button\ number\n
+comment2.params=
+comment2.target=void\ exit()
+comment2.text=\n\ Handle\ an\ exit\ command\ from\ the\ viewer.\n
+numComments=3

@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=searchText\ n
+comment0.target=Photo\ find(java.lang.String,\ int)
+comment0.text=\n\ Return\ a\ photo\ object\ from\ a\ free-text\ search\ of\ the\ photo\ service.\n\ Normally,\ there\ will\ be\ more\ than\ one\ match,\ and\ the\ <code>n</code>'th\n\ matching\ photograph\ is\ returned.\ <p>\ If\ there\ is\ no\ matching\ image,\ or\n\ <code>n</code>\ is\ greater\ than\ the\ number\ of\ matching\ images,\ or\ there\ is\n\ any\ other\ kind\ of\ error,\ then\ an\ error\ message\ is\ printed\ to\ the\ console\n\ and\ null\ is\ returned.\n\n\ @param\ searchText\ the\ free-text\ search\ string\n\ @param\ n\ the\ number\ of\ the\ matching\ photo\ to\ return\n\ @return\ the\ requested\ photo,\ or\ null\ if\ not\ available\n
+numComments=1

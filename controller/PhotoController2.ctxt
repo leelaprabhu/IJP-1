@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.params=finder\ viewer
+comment0.target=PhotoController2(ijp.PhotoFinder,\ ijp.PhotoViewer)
+comment0.text=\n\ Create\ a\ new\ PhotoController.\n\n\ @param\ finder\ the\ photo\ finder\ object\ to\ locate\ images\ from\ the\ photo\ service\ (eg.\ Flickr)\n\ @param\ viewer\ the\ photo\ viewer\ object\ to\ display\ images\ in\ a\ window\n
+comment1.params=
+comment1.target=void\ initialize()
+comment1.text=\n\ Initialize\ the\ controller.\n\ In\ this\ simple\ case,\ we\ set\ the\ caption\ on\ a\ single\ selector\ (eg.\ button\ or\ menu\ item)\n\ (So\ only\ the\ first\ selector\ will\ be\ enabled)\n
+comment2.params=
+comment2.target=void\ setTopics()
+comment3.params=
+comment3.target=void\ loadPhotos()
+comment4.params=topicNumber
+comment4.target=void\ topicSelected(int)
+comment4.text=\n\ Handle\ a\ topic\ selection\ from\ the\ interface.\ This\ simple\ controller\n\ retrieves\ an\ image\ of\ the\ Informatics\ Forum\ and\ displays\ it\ in\ the\n\ viewer.\ Notice\ that\ only\ one\ selector\ has\ been\ enabled,\ so\ the\ topic\n\ number\ can\ be\ ignored\ (it\ will\ always\ be\ 1).\n\n\ @param\ n\ the\ topic\ number\n
+comment5.params=
+comment5.target=void\ exit()
+comment5.text=\n\ Handle\ the\ "Close"\ button\ on\ the\ interface\ window.\n\ Exits\ the\ application.\n
+numComments=6
